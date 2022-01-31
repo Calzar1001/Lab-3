@@ -15,11 +15,15 @@
         <h1>Simple Note Keeper</h1>
         <h1>Edit Note</h1>
         <form action="note" method="post">
-            <label for="title"> Title: </label>
-            <input type="text" name="title" id="Title">
-            <label for="Contents"> Contents: </label>
-            <input type="text" name="Contents" id="Contents">
-            <button type="submit">Submit</button>
+            <p>
+                <label for="title"> Title: </label>
+                <input type="text" name="title" id="Title" value="This is a title">
+                <br>
+                <label for="Contents"> Contents: </label>
+                <textarea type="text" name="Contents" id="Contents" rows="10" cols="30" >Contents go here</textarea>
+                <br>
+                <button type="submit">Save</button>
+            </p>
         </form>
     </body>
 </html>
